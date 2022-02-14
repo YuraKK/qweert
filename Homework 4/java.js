@@ -67,18 +67,18 @@
 
 //- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
- let errr = [213,'Tato','Ostap Vysnia',1, 'sam som'];
- function prymityv (asd)
- {
-     document.write(`<ol>`)
-         for (let i = 0; i < asd.length; i++) {
-             document.write(`<li>${asd[i]}</li>`);
-         }
-     document.write(`</ol>`)
+//let errr = [213,'Tato','Ostap Vysnia',1, 'sam som'];
+//function prymityv (asd)
+//{
+//    document.write(`<ol>`)
+//        for (let i = 0; i < asd.length; i++) {
+//            document.write(`<li>${asd[i]}</li>`);
+//        }
+//    document.write(`</ol>`)
 
- }
+//}
 
- prymityv(errr);
+//prymityv(errr);
 
 
 //- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
